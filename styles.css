@@ -77,3 +77,27 @@ ul {
   height: 30px;
 }
 
+.info-title {
+  text-align: center;
+  font-weight: bold;
+  color: #1f2937;
+  font-size: 36px;
+  margin: 50px;
+}
+
+.info {
+  justify-content: center;
+  display: inline-flex;
+  gap: 52px;
+}
+
+.info-img {
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
+}
+
+.info-text {
+  text-align: center;
+  max-width: 150px;
+}
