@@ -98,9 +98,9 @@ ul {
 }
 
 .info-text {
+  padding-bottom: 100px;
   text-align: center;
   max-width: 150px;
-  padding-bottom: 100px;
 }
 
 .quote {
@@ -121,10 +121,10 @@ ul {
 }
 
 .quote-signature {
+  justify-content: end;
   color: #1f2937;
   font-size: 24px;
   display: flex;
-  justify-content: end;
 }
 
 .newsletter {
@@ -135,15 +135,15 @@ ul {
 
 .newsletter-content {
   background-color: #3882f6;
+  display: inline-flex;
   border-radius: 15px;
   padding: 30px 100px;
-  display: inline-flex;
 }
 
 .newsletter-title {
-  font-size: 24px;
-  color: #f9faf8;
   font-weight: bold;
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 .newsletter-text {
@@ -163,4 +163,14 @@ ul {
   font-weight: bold;
   color: #f9faf8;
   padding: 6px 25px;
+}
+
+.footer {
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  height: 100px;
 }
